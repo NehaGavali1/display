@@ -1,0 +1,124 @@
+
+      /* collapse start     */
+      
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #7c4040;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        width:50px;
+        margin-left: -10px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        width: 80px;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      
+      @media (min-width: 415px) and (max-width: 1370px) {
+          #span{
+              display:none;
+          }
+      
+      
+      }
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px; width:80px;}
+        .sidenav a {font-size: 18px; width:80px;}
+      }
+      
+      
+         /*collapse end  */
+          
+          
+          
+          
+          
+          #table{
+        margin: auto;
+              }
+
+        #button{
+        display: inline;
+        margin:12px;
+        padding:10px;
+        border-radius: 20%;
+        width:100px;
+        box-shadow:3px 5px 3px 5px rgb(48, 48, 52);}
+
+        #button #btn:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+#btn{
+    display: inline;
+        padding:10px;
+        border-radius: 10%;
+        width:50px;
+        box-shadow:2px 3px 2px 3px rgb(48, 48, 52);}
+
+
+        #show{ 
+            top:55px;
+           position:fixed;
+           display:inline;
+         width:250px;
+         height: 300px;
+          padding:10px;
+        border:2px solid rgb(150, 17, 167);
+        margin:2px;
+        text-align: center;
+    box-shadow: 1px 2px 1px 2px rgb(128, 128, 128);}
+
+    #table1{
+        margin-top:20px;
+    }
+
+
+    @media (min-width:200px) and (max-width:920px) {
+
+#table1{
+   
+    display:none;
+}
+
+
+}
+
+
+/*  */
+    

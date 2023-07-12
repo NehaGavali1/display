@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"  type=text/css href="css/style.css">
+<script src="script.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100px";
+      document.getElementById("main").style.marginright = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginright= "0";
+    }
+    </script>
+       
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run();">A</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run1();">B</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run2();">C</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run3();">D</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run4();">E</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run5();">F</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run6();">G</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run7();">H</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run8();">I</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run9();">J</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run10();">K</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run11();">L</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run12();">M</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run13();">N</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run14();">O</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run15();">P</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run16();">Q</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run17();">R</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run18();">S</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run19();">T</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run20();">U</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run21();">V</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run22();">W</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run23();">X</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run24();">Y</button></a>
+  <a href="#"><button type="button" id="btn" class="btn btn-primary m-1" onclick="run25();">Z</button></a>
+</div>
+
+<div id="main">
+ 
+  <span style="font-size:30px;cursor:pointer" id="span" onclick="openNav()">&#9776; open</span>
+</div>
+
+
+
+<Table id="table" width="200px">
+    <tr>
+        <td><!--main td-->
+
+<table id="table1">
+    <!-- <tr>
+        <td><button type="button" id="button" class="btn btn-primary" onclick="run();">A</button></td>
+        <td><button type="button" id="button" class="btn btn-primary" onclick="run1();">B</button></td>
+        <td><button type="button" id="button" class="btn btn-primary" onclick="run2();">C</button></td>
+        <td><button type="button" id="button" class="btn btn-primary" onclick="run3();">D</button></td>
+        <td><button type="button" id="button" class="btn btn-primary" onclick="run4();">E</button></td>
+        
+</tr>
+<tr>
+    <td><button type="button" id="button" class="btn btn-primary" onclick="run5();">F</button></td>
+    <td><button type="button" id="button" class="btn btn-primary" onclick="run6();">G</button></td>
+    <td><button type="button" id="button" class="btn btn-primary" onclick="run7();">H</button></td>
+    <td><button type="button" id="button" class="btn btn-primary" onclick="run8();">I</button></td>
+    <td><button type="button" id="button" class="btn btn-primary" onclick="run9();">J</button></td>
+    
+</tr>
+<tr>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run10();">K</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run11();">L</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run12();">M</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run13();">N</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run14();">O</button></td>
+
+</tr>
+<tr>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run15();">P</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run16();">Q</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run17();">R</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run18();">S</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run19();">T</button></td>
+
+</tr>
+<tr>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run20();">U</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run21();">V</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run22();">W</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run23();">X</button></td>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run24();">Y</button></td>
+</tr>
+<tr>
+<td><button type="button" id="button" class="btn btn-primary" onclick="run25();">Z</button></td>
+
+</tr> -->
+
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run();">A</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run1();">B</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run2();">C</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run3();">D</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run4();">E</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run5();">F</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run6();">G</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run7();">H</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run8();">I</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run9();">J</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run10();">K</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run11();">L</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run12();">M</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run13();">N</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run14();">O</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run15();">P</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run16();">Q</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run17();">R</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run18();">S</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run19();">T</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run20();">U</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run21();">V</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run22();">W</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run23();">X</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run24();">Y</button></td></tr>
+<tr><td><button type="button" id="button" class="btn btn-info" onclick="run25();">Z</button></td></tr>
+
+
+
+</table>
+
+
+</td><!--main td end-->
+
+<td><!--main td start-->
+<table width="250px" height="300px"   display="inline">
+<tr><td id="show"></td></tr>
+</table>
+</td><!--main td end-->
+
+
+
+</tr>
+</Table>
+</body>
+</html> 
